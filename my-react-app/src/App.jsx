@@ -1,8 +1,8 @@
-import Header from "./Header.jsx";
-import Footer from "./Footer.jsx";
-import Food from "./Food.jsx";
+import Header from "./function/Header.jsx";
+import Footer from "./function/Footer.jsx";
 import Card from "./Card/Card.jsx";
-import Student from "./Student.jsx";
+import Student from "./function/Student.jsx";
+import ListData from "./function/ListData.jsx";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <Student name="Nathan" age={18} gender={true}></Student>
       <Student name="Naya" age={19} gender={false}></Student>
       <Student></Student>
-      <Food />
+      <ListData /> 
       <Footer />
     </>
   );
