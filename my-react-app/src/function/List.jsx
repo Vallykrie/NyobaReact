@@ -1,26 +1,53 @@
+import { useState } from 'react';
 import PropTypes from 'prop-types';
 
 function List(props) {
+  // CSS for category header
+  const cssCategory = {
+    fontSize: "2.5em",
+    fontWeight: "bold",
+    color: "hsl(0, 0%, 20%)",
+    marginBottom: "10px",
+    textAlign: "center",
+    border: "3px solid",
+    borderRadius: "5px",
+    backgroundColor: "hsl(0, 0%, 90%)",
+  };
+
+  const [hoveredIndex, setHoveredIndex] = useState(null);
+
+  const cssItems = {
+    fontSize: "1.5em",
+    listStyle: "none",
+    color: "hsl(0, 0%, 25%)",
+    textAlign: "center",
+    margin: "0",
+    cursor: "pointer"
+  };
+
+  const cssItemHover = {
+    color: "hsl(0, 0%, 45%)",
+  };
+
   const category = props.category;
   const itemList = props.items;
 
-  itemList.sort((a, b) => a.name.localeCompare(b.name)); // ALPHABETICAL
-  //   fruits.sort((a,b) => b.name.localeCompare(a.name)); // REVERSE ALPHABETICAL
-  //   fruits.sort((a,b) => a.calories - b.calories); // NUMERIC
-  //   fruits.sort((a,b) => b.calories - a.calories); // REVERSE NUMERIC
+  itemList.sort((a, b) => a.name.localeCompare(b.name));
 
-  // const lowCalFruit = fruits.filter(fruit => fruit.calories < 100);
-  // const highCalFruit = fruits.filter(fruit => fruit.calories >= 100);
-
-  const listItems = itemList.map((item) => (
-    <li key={item.id}>
+  const listItems = itemList.map((item, index) => (
+    <li
+      key={item.id}
+      style={index === hoveredIndex ? { ...cssItems, ...cssItemHover } : cssItems}
+      onMouseEnter={() => setHoveredIndex(index)}
+      onMouseLeave={() => setHoveredIndex(null)}
+    >
       <b>{item.name}</b>: &nbsp;{item.calories}
     </li>
   ));
 
   return (
     <>
-      <h3>{category}</h3>
+      <h3 style={cssCategory}>{category}</h3>
       <ol>{listItems}</ol>
     </>
   );
