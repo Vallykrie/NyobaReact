@@ -19,8 +19,8 @@ function ListData() {
 
     return(
         <>  
-          <List category="Fruits" items={fruits}></List>
-          <List category="Vegetables" items={vegetables}></List>
+          {fruits.length > 0 && <List category="Fruits" items={fruits}></List>}
+          {vegetables.length > 0 && <List category="Vegetables" items={vegetables}></List>}
         </>
     );
     

@@ -55,7 +55,7 @@ function List(props) {
 
 List.defaultProps = {
   category: "List",
-  items: [],
+  items: null,
 };
 
 List.propTypes = {
