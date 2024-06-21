@@ -12,7 +12,7 @@ function Button() {
   const handleClick = (e) => (e.target.textContent = "Ouch! 😡");
 
   return (
-    <div style={{ textAlign: "center" }}>
+    <div style={{ textAlign: "center", marginBottom: "15px", }}>
       <button onDoubleClick={(e) => handleClick(e)}>Click me ✨</button>
     </div>
   );

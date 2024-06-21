@@ -1,0 +1,16 @@
+.counterContainer{
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.counterDisplay{
+    font-size: 10em;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.counterButton {
+    margin: 0 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}

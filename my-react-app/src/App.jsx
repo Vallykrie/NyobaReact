@@ -5,7 +5,8 @@ import Student from "./function/Student.jsx";
 import ListData from "./function/ListData.jsx";
 import Button from "./function/Button.jsx";
 import ProfilePicture from "./function/ProfilePicture.jsx";
-import Counter from "./counter/Counter.jsx";
+import Counter from "./Counter/Counter.jsx";
+import MyComponent from "./function/MyComponent.jsx";
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
       <Student name="Nathan" age={18} gender={true}></Student>
       <Student name="Naya" age={19} gender={false}></Student>
       <Student></Student>
+      <br />
+      <MyComponent></MyComponent>
+      <br />
       <ListData /> 
       <ProfilePicture></ProfilePicture>
       <Footer />
