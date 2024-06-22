@@ -11,7 +11,7 @@ import ColorPicker from "./ColorPicker/ColorPicker.jsx";
 
 function App() {
   return (
-    <>
+    <div className="main-class">
       <Header />
       <Card
         title="thanathanan"
@@ -36,7 +36,7 @@ function App() {
       <ListData />
       <ProfilePicture></ProfilePicture>
       <Footer />
-    </>
+    </div>
   );
 }
 
