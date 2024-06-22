@@ -13,3 +13,8 @@
     height: flex;
     transition: all 0.3s;
 }
+
+.box {
+    border: black 1px solid;
+    padding: 20px;
+}

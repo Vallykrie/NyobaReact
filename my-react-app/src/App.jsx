@@ -11,12 +11,14 @@ import ColorPicker from "./ColorPicker/ColorPicker.jsx";
 import Food from "./function/Food.jsx";
 import Car from "./function/ArrayOfObjects.jsx";
 import ToDoList from "./ToDoList/ToDoList.jsx";
+import ComponentA from "./PropDrilling/ComponentA.jsx";
 
 function App() {
+
   return (
     <div className="main-class">
+      <ComponentA></ComponentA>
       <Header />
-
       <ToDoList></ToDoList>
       <Card
         title="thanathanan"
