@@ -9,6 +9,7 @@ import Counter from "./Counter/Counter.jsx";
 import MyComponent from "./function/MyComponent.jsx";
 import ColorPicker from "./ColorPicker/ColorPicker.jsx";
 import Food from "./function/Food.jsx";
+import Car from "./function/ArrayOfObjects.jsx";
 
 function App() {
   return (
@@ -39,6 +40,8 @@ function App() {
       <MyComponent></MyComponent>
       <br />
       <Food></Food>
+      <br />
+      <Car></Car>
       <ListData />
       <ProfilePicture></ProfilePicture>
       <Footer />
