@@ -10,12 +10,14 @@ import MyComponent from "./function/MyComponent.jsx";
 import ColorPicker from "./ColorPicker/ColorPicker.jsx";
 import Food from "./function/Food.jsx";
 import Car from "./function/ArrayOfObjects.jsx";
+import ToDoList from "./ToDoList/ToDoList.jsx";
 
 function App() {
   return (
     <div className="main-class">
       <Header />
 
+      <ToDoList></ToDoList>
       <Card
         title="thanathanan"
         paragraph="Hello there :D I am nathan nice to meet you "
