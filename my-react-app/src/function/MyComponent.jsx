@@ -75,6 +75,7 @@ function MyComponent() {
         />
         Delivery
       </label>
+      <br />
       <h2>{item.year} {item.name}</h2>
       <p>Name: {name}</p>
       <p>Quantity: {quantity}</p>
