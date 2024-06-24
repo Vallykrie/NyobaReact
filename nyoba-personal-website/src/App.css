@@ -10,7 +10,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #f8f9fa;
+  background-color: #000000;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -38,7 +38,7 @@ body {
   position: absolute;
   width: 23.15px;
   height: 34.73px;
-  background: black;
+  background: white;
 }
 
 .logo-part {
@@ -55,7 +55,7 @@ body {
   top: 11.58px;
   transform: rotate(-45deg);
   transform-origin: 0 0;
-  background: black;
+  background: white;
 }
 
 .title {
@@ -63,8 +63,16 @@ body {
   font-weight: 700;
   text-transform: capitalize;
   line-height: 24px;
-  color: black;
+  color: white;
 }
+.title:link {
+  color: white;
+}
+.title:visited {
+  color: white;
+}
+
+
 
 .header-right {
   display: flex;
@@ -76,14 +84,14 @@ body {
   font-weight: 600;
   text-transform: capitalize;
   line-height: 24px;
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
 .resume-button {
   width: 153px;
   padding: 16px 20px;
-  background: black;
+  background: white;
   border-radius: 4px;
   display: flex;
   justify-content: center;
