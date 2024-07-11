@@ -24,7 +24,18 @@ function Header() {
   };
 
   return (
-    <AppBar style={{ backgroundColor: "black", paddingLeft: "5vw", paddingRight: "5vw" }}>
+    <AppBar
+      style={{
+        backgroundColor: "transparent",
+        paddingLeft: "5vw",
+        paddingRight: "5vw",
+        boxShadow: ".1rem .1rem #000000",
+        position : "static",
+        borderColor: "white",
+        border: ".1rem solid white",
+        borderRadius: "2rem",
+      }}
+    >
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography
@@ -39,7 +50,7 @@ function Header() {
               fontWeight: "400",
               fontStyle: "normal",
               letterSpacing: ".7rem",
-              color: "inherit",
+              color: "white",
               textDecoration: "none",
             }}
           >
@@ -55,7 +66,7 @@ function Header() {
               onClick={handleOpenNavMenu}
               color="inherit"
             >
-              <MenuIcon />
+              <MenuIcon sx={{ color: "white" }} />
             </IconButton>
           </Box>
 
@@ -80,8 +91,19 @@ function Header() {
                 }}
               >
                 {pages.map((page) => (
-                  <MenuItem key={page} onClick={handleCloseNavMenu}>
-                    <Typography textAlign="center">{page}</Typography>
+                  <MenuItem key={page} onClick={handleCloseNavMenu} sx={{borderRadius: ".3rem"}}>
+                    <Typography
+                      textAlign="center"
+                      sx={{
+                        textTransform: "none",
+                        color: "white",
+                        display: "block",
+                        fontFamily: "inter",
+                        fontStyle: "normal",
+                      }}
+                    >
+                      {page}
+                    </Typography>
                   </MenuItem>
                 ))}
               </Menu>
@@ -101,7 +123,7 @@ function Header() {
               fontWeight: "500",
               fontStyle: "normal",
               letterSpacing: ".7rem",
-              color: "inherit",
+              color: "white",
               textDecoration: "none",
             }}
           >
@@ -113,7 +135,14 @@ function Header() {
               <Button
                 key={page}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: "white", display: "block" }}
+                sx={{
+                  textTransform: "none",
+                  my: 2,
+                  color: "white",
+                  display: "block",
+                  fontFamily: "inter",
+                  fontStyle: "normal",
+                }}
               >
                 {page}
               </Button>
