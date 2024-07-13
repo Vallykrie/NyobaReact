@@ -3,9 +3,9 @@ import { socialMedia } from "../constant";
 const Hero = () => {
   return (
     // Hero section
-    <section id="home" className="px-8 w-full h-[596px] flex flex-col">
+    <section className="px-8 w-auto h-auto flex flex-col">
       {/* Hero content */}
-      <div className="flex-col flex w-fit">
+      <div className="flex-col flex w-fit z-10">
         <div className="inline-flex gap-4" style={{ fontSize: "3rem" }}>
           <div className="sora-400">Hello I am</div>
           <div className="sora-800">Nathan.</div>
@@ -42,8 +42,7 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Social Media */}
-      <div className="z-30 justify-end items-center h-[596] bg-gray-400 w-1/2 absolute"></div>
+
       {/* Social Media */}
       <div className="absolute z-10">
         <div className="justify-end h-[596px] flex flex-col max-w-fit z-10">
@@ -67,7 +66,7 @@ const Hero = () => {
       </div>
 
       {/* Right side image */}
-      <div className="left-1/2 h-[561px] w-[42.3%] bg-gray-200 absolute">
+      <div className="left-1/2 h-[561px] w-[42.3%] bg-gray-200 absolute z-0">
         <img
           src="/mnt/data/image.png"
           alt="Foto Gwejh"
