@@ -4,7 +4,7 @@ const Experience = () => {
   return (
     <section className="w-auto h-auto flex px-8 gap-5 flex-col">
       {/* title */}
-      <div className="py-5 justify-center flex flex-row gap-4 h-fit items-start">
+      <div className="mt-14 py-5 justify-center flex flex-row gap-4 h-fit items-start">
         <div className="sora-400 text-white" style={{ fontSize: "3rem" }}>
           My
         </div>

@@ -4,7 +4,7 @@ const Skills = () => {
   return (
     // Title
     <section className="flex flex-col px-8 gap-5 h-auto w-full">
-      <div className="py-5 justify-center flex flex-row gap-4 h-fit items-start">
+      <div className="py-5 justify-center flex flex-row gap-4 h-fit items-start mt-14">
         <div className="sora-400" style={{ fontSize: "3rem" }}>
           My
         </div>

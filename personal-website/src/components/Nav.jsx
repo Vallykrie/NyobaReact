@@ -2,7 +2,7 @@
 
 const Nav = () => {
   return (
-    <header className="px-20 py-6 sticky top-0 backdrop-blur bg-white/50 w-auto z-50">
+    <header className="px-20 py-6 sticky top-0 backdrop-blur drop-shadow-lg bg-white/60 w-auto z-50">
       <nav className="px-8 flex justify-between items-center flex-row">
         <div className="justify-start">
         <a href="#home">
@@ -16,7 +16,7 @@ const Nav = () => {
           <a href="#skills">
             Skills
           </a>
-          <a href="#projects">
+          <a href="#project">
             Projects
           </a>
           <a href="#contact">
