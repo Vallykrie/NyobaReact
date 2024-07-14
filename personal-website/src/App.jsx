@@ -4,26 +4,30 @@ import Skills from "./sections/Skills";
 import Experience from "./sections/Experience";
 import About from "./sections/About";
 import Project from "./sections/Project";
+import Contact from "./sections/Contact";
 
 const App = () => (
   <main id="home" className="w-full">
     <Nav></Nav>
-    <section className="px-20 py-16">
-      <Hero/>
+    <section className="px-20 py-16 mt-7">
+      <Hero />
     </section>
     <section id="skills" className="px-20 py-16">
-      <Skills/>
+      <Skills />
     </section>
     <section id="experience" className="bg-black px-20 py-16">
-      <Experience/>
+      <Experience />
     </section>
     <section id="about" className="px-20 py-16">
-      <About/>
+      <About />
     </section>
     <section id="project" className="bg-black px-20 py-16">
-      <Project/>
+      <Project />
     </section>
-</main>
+    <section id="contact" className="px-20 py-16">
+      <Contact />
+    </section>
+  </main>
 );
 
 export default App;

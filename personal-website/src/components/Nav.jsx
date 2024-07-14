@@ -6,7 +6,7 @@ const Nav = () => {
       <nav className="px-8 flex justify-between items-center flex-row">
         <div className="justify-start">
         <a href="#home">
-          <img src="..\src\assets\logoHeader.svg" alt="logo" />
+          <img src="..\src\assets\logoHeader2.svg" alt="logo" />
         </a>
         </div>
         <div className="justify-center space-x-8 sora-600 text-xl">

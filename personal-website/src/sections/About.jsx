@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <section className="px-8 flex flex-row justify-between w-auto h-auto">
+    <section className="px-8 flex flex-row justify-between w-auto h-auto pt-20">
       {/* Photo */}
       <div className="h-[572px] w-[525px] border-solid border-4 rounded-xl border-black ">
         <img

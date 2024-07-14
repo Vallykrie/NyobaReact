@@ -118,3 +118,38 @@ export const experienceLists = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
   },
 ];
+
+export const projectLists = [
+  {
+    img: "https://via.placeholder.com/150",
+    alt: "project 1",
+    no: "01",
+    title: "Project 1",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu hendrerit purus. Nullam eget risus quam. Nam diam metus, volutpat non eros vel, consectetur mattis velit. Aenean dui ex, vulputate at convallis eget, lacinia vitae erat. Curabitur faucibus massa arcu, nec faucibus lacus placerat in. Phasellus blandit dolor sit amet turpis molestie, non cursus sem aliquam. Quisque porttitor nibh diam. Pellentesque tempor mattis leo eu eleifend. Phasellus in ornare arcu, quis consequat diam. Aenean consequat gravida diam, id ultrices massa euismod quis. Praesent ac elit finibus, rutrum lectus a, vulputate urna.This is a description of project 1",
+    href: "https://www.google.com",
+    img2: "https://via.placeholder.com/150",
+    alt2: "project 2",
+    no2: "02",
+    title2: "Project 2",
+    description2:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu hendrerit purus. Nullam eget risus quam. Nam diam metus, volutpat non eros vel, consectetur mattis velit. Aenean dui ex, vulputate at convallis eget, lacinia vitae erat. Curabitur faucibus massa arcu, nec faucibus lacus placerat in. Phasellus blandit dolor sit amet turpis molestie, non cursus sem aliquam. Quisque porttitor nibh diam. Pellentesque tempor mattis leo eu eleifend. Phasellus in ornare arcu, quis consequat diam. Aenean consequat gravida diam, id ultrices massa euismod quis. Praesent ac elit finibus, rutrum lectus a, vulputate urna.This is a description of project 2",
+    href2: "https://www.google.com",
+  },
+  {
+    img: "https://via.placeholder.com/150",
+    alt: "project 3",
+    no: "03",
+    title: "Project 3",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu hendrerit purus. Nullam eget risus quam. Nam diam metus, volutpat non eros vel, consectetur mattis velit. Aenean dui ex, vulputate at convallis eget, lacinia vitae erat. Curabitur faucibus massa arcu, nec faucibus lacus placerat in. Phasellus blandit dolor sit amet turpis molestie, non cursus sem aliquam. Quisque porttitor nibh diam. Pellentesque tempor mattis leo eu eleifend. Phasellus in ornare arcu, quis consequat diam. Aenean consequat gravida diam, id ultrices massa euismod quis. Praesent ac elit finibus, rutrum lectus a, vulputate urna.This is a description of project 1",
+    href: "https://www.google.com",
+    img2: "https://via.placeholder.com/150",
+    alt2: "project 4",
+    no2: "04",
+    title2: "Project 4",
+    description2:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu hendrerit purus. Nullam eget risus quam. Nam diam metus, volutpat non eros vel, consectetur mattis velit. Aenean dui ex, vulputate at convallis eget, lacinia vitae erat. Curabitur faucibus massa arcu, nec faucibus lacus placerat in. Phasellus blandit dolor sit amet turpis molestie, non cursus sem aliquam. Quisque porttitor nibh diam. Pellentesque tempor mattis leo eu eleifend. Phasellus in ornare arcu, quis consequat diam. Aenean consequat gravida diam, id ultrices massa euismod quis. Praesent ac elit finibus, rutrum lectus a, vulputate urna.This is a description of project 2",
+    href2: "https://www.google.com",
+  },
+];
