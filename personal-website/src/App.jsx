@@ -5,6 +5,7 @@ import Experience from "./sections/Experience";
 import About from "./sections/About";
 import Project from "./sections/Project";
 import Contact from "./sections/Contact";
+import Footer from "./sections/Footer";
 
 const App = () => (
   <main id="home" className="w-full">
@@ -26,6 +27,9 @@ const App = () => (
     </section>
     <section id="contact" className="px-20 py-16">
       <Contact />
+    </section>
+    <section className="px-20 py-6 bg-black">
+      <Footer />
     </section>
   </main>
 );
